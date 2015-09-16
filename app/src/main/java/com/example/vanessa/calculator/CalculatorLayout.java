@@ -165,13 +165,6 @@ public class CalculatorLayout extends Activity {
                 valor = String.valueOf(7);
                 acc.setText(valor);
             }
-            if(valor != null){
-                valor = valor +  String.valueOf(7);
-                acc.setText(valor);
-            }else{
-                valor = String.valueOf(7);
-                acc.setText(valor);
-            }
         }
     };
     View.OnClickListener button8 = new View.OnClickListener() {
